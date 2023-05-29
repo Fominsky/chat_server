@@ -1,5 +1,3 @@
-Проверь грамматику на английском  в данном описании
-
 # Localhost chat server
 This is a simple script to create a server on localhost. Messages from any client will be 
 sent to all other clients. 
