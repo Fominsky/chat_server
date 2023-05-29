@@ -63,7 +63,7 @@ async def main():
     
     print('Starting server on port',args.p,'...' )
 
-    srv =   await asyncio.start_server(client_conneted_cb, '127.0.0.1', 3030)
+    srv =   await asyncio.start_server(client_conneted_cb, '127.0.0.1', args.p)
     await srv.serve_forever()
 
 asyncio.run(main())
